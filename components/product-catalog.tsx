@@ -192,12 +192,11 @@ export function ProductCatalog() {
                 <i>{activeImage.label}</i>
               </div>
 
-              <div style={{ marginTop: '28px' }}>
+              <div className="dialog-action-wrap">
                 <a
                   href="#contact"
-                  className="button button--dark"
+                  className="dialog-inquire-btn"
                   onClick={() => dialogRef.current?.close()}
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none' }}
                 >
                   Inquire about this product <ArrowRight size={16} />
                 </a>

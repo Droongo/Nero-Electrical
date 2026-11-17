@@ -5,7 +5,8 @@ import { useState } from 'react'
 import { ArrowDownRight, ArrowRight, ArrowUpRight, Camera, MapPin, Menu, Phone, Send, X } from 'lucide-react'
 import { ProductCatalog } from '@/components/product-catalog'
 
-const NERO_LOGO_URL = '/general/nero-logo.jpeg'
+const NERO_LOGO_DARK = '/general/nero-logo-dark.png'
+const NERO_LOGO_LIGHT = '/general/nero-logo-light.png'
 const NERO_OFFICE_IMAGE = '/general/nero-office.jpg'
 const HERO_MAIN_IMAGE = '/general/hero-main.jpg'
 const HERO_SOCKET_IMAGE = '/general/hero-socket.webp'
@@ -20,7 +21,7 @@ export default function Page() {
         <main>
             <header className="site-header">
                 <a href="#top" className="brand" aria-label="Nero Electrical home">
-                    <Image src={NERO_LOGO_URL} alt="Nero Electrical" width={240} height={82} priority unoptimized />
+                    <Image src={NERO_LOGO_DARK} alt="Nero Electrical" width={140} height={42} priority unoptimized />
                 </a>
                 <button
                     className="menu-toggle"
@@ -167,7 +168,7 @@ export default function Page() {
                 <div className="footer-main">
                     <div className="footer-brand-col">
                         <a href="#top" className="footer-logo" aria-label="Nero Electrical home">
-                            <Image src={NERO_LOGO_URL} alt="Nero Electrical logo" width={240} height={82} unoptimized />
+                            <Image src={NERO_LOGO_LIGHT} alt="Nero Electrical logo" width={140} height={42} unoptimized />
                         </a>
                         <p>Good power. No guesswork.<br />Quality. Safety. Reliability.</p>
                         <div className="social-links">
