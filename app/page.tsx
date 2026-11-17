@@ -145,14 +145,14 @@ export default function Page() {
                         <article className="contact-address-card">
                             <span className="contact-card-index">LOCATION 01</span>
                             <MapPin size={18} />
-                            <h3>Deretera Tera Building</h3>
+                            <h3>Dere tera Building</h3>
                             <p>Shop number B055<br />Merkato, Addis Ababa</p>
                             <a href="https://maps.app.goo.gl/AwK8FGgL1gedJdJy9" target="_blank" rel="noreferrer">Open map <ArrowUpRight size={14} /></a>
                         </article>
                         <article className="contact-address-card">
                             <span className="contact-card-index">LOCATION 02</span>
                             <MapPin size={18} />
-                            <h3>Sosa Building</h3>
+                            <h3>Sosaa building</h3>
                             <p>Shop number SFF B183<br />Merkato, Addis Ababa</p>
                             <a href="https://maps.app.goo.gl/gLcMJqFyUW5fanYx6" target="_blank" rel="noreferrer">Open map <ArrowUpRight size={14} /></a>
                         </article>
@@ -191,8 +191,8 @@ export default function Page() {
                     </div>
                     <div className="footer-column footer-locations">
                         <p className="footer-label">VISIT US</p>
-                        <span><strong>Deretera Tera Building</strong><br />Shop number B055</span>
-                        <span><strong>Sosa Building</strong><br />Shop number SFF B183</span>
+                        <span><strong>Dere tera Building</strong><br />Shop number B055</span>
+                        <span><strong>Sosaa building</strong><br />Shop number SFF B183</span>
                         <a href="https://instagram.com/nero_electrical?utm_source=qr" target="_blank" rel="noreferrer">Instagram / @nero_electrical</a>
                     </div>
                 </div>
