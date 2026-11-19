@@ -50,7 +50,7 @@ export default function Page() {
                 </div>
                 <div className="hero-copy">
                     <p className="eyebrow">
-                        <span className="eyebrow-line" /> POWERING EVERYDAY POSSIBILITIES <span className="eyebrow-index">NERO / 01—08</span>
+                        POWERING EVERYDAY POSSIBILITIES <span className="eyebrow-index">NERO / 01-08</span>
                     </p>
                     <h1>Good power.<br /><span>No guesswork.</span></h1>
                     <p className="hero-description">The right component makes all the difference. Find dependable electrical essentials for every connection, circuit, and control.</p>
@@ -80,7 +80,7 @@ export default function Page() {
                     <div className="hero-product hero-product--breaker">
                         <Image src={HERO_BREAKER_IMAGE} alt="Nero electrical switch plate" fill unoptimized sizes="(max-width: 760px) 30vw, 15vw" />
                     </div>
-                    <div className="hero-index">THE NERO EDIT / 01—04</div>
+                    <div className="hero-index">THE NERO EDIT / 01-04</div>
                     <div className="hero-stamp">GOOD<br />POWER<br /><span>→</span></div>
                     <div className="hero-art-caption">
                         <span className="live-dot" /> THE NERO STANDARD <i>POWER, PRECISELY.</i>

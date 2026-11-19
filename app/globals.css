@@ -247,27 +247,25 @@ a {
 }
 
 .eyebrow {
-    font-size: 9px;
-    letter-spacing: .17em;
+    font-size: 12px;
+    letter-spacing: .15em;
     color: #bd7743;
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 11px
+    gap: 12px;
 }
 
 .eyebrow-line {
-    width: 24px;
-    height: 1px;
-    background: #d49b5b
+    display: none;
 }
 
 .eyebrow-index {
     margin-left: auto;
     color: inherit;
-    opacity: .56;
-    font-size: 8px;
-    letter-spacing: .13em
+    opacity: .68;
+    font-size: 11.5px;
+    letter-spacing: .13em;
 }
 
 .hero-copy .eyebrow {
@@ -416,13 +414,13 @@ a {
     position: absolute;
     left: 14px;
     bottom: 12px;
-    padding: 7px 9px;
+    padding: 8px 12px;
     background: #f6f2e9dd;
     color: #253347;
-    font-size: 7px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: .11em;
-    backdrop-filter: blur(8px)
+    backdrop-filter: blur(8px);
 }
 
 .hero-product--main {
@@ -481,17 +479,18 @@ a {
     position: absolute;
     right: 6%;
     bottom: 6%;
-    font-size: 8px;
+    font-size: 11.5px;
+    font-weight: 600;
     letter-spacing: .12em;
-    color: #4b565b
+    color: #4b565b;
 }
 
 .hero-stamp {
     position: absolute;
     right: 8%;
     top: 10%;
-    width: 94px;
-    height: 94px;
+    width: 98px;
+    height: 98px;
     border: 1px solid #a86a3d88;
     border-radius: 50%;
     display: flex;
@@ -501,25 +500,26 @@ a {
     text-align: center;
     line-height: 1.4;
     letter-spacing: .1em;
-    font-size: 9px;
+    font-size: 11px;
     color: #253347;
     background: #f2efe7c9;
     transform: rotate(9deg);
-    animation: stamp-float 5s ease-in-out infinite
+    animation: stamp-float 5s ease-in-out infinite;
 }
 
 .hero-stamp span {
-    color: #b96f39
+    color: #b96f39;
+    font-size: 17px;
 }
 
 .hero-art-caption {
     position: absolute;
     left: 5%;
     bottom: 5%;
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: .12em;
-    color: #34414a
+    color: #34414a;
 }
 
 .hero-art-caption i {
@@ -527,7 +527,8 @@ a {
     margin: 6px 0 0 17px;
     font-style: normal;
     font-weight: 500;
-    color: #9b6138
+    font-size: 10.5px;
+    color: #9b6138;
 }
 
 .live-dot {
@@ -616,9 +617,10 @@ a {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 8px;
-    letter-spacing: .14em;
-    color: #9b6138
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .12em;
+    color: #9b6138;
 }
 
 .product-rail {
@@ -725,24 +727,24 @@ a {
 .product-kicker {
     display: flex;
     justify-content: space-between;
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: .12em;
-    color: #8f5b37
+    color: #8f5b37;
 }
 
 .product-info h3 {
     margin: 18px 0 6px;
     font-size: 23px;
     font-weight: 500;
-    letter-spacing: -.04em
+    letter-spacing: -.04em;
 }
 
 .product-info p {
     margin: 0;
     color: #626867;
-    font-size: 12px;
-    line-height: 1.6
+    font-size: 13.5px;
+    line-height: 1.6;
 }
 
 .rail-progress {
@@ -750,14 +752,14 @@ a {
     margin: 1px auto 0;
     display: flex;
     align-items: center;
-    gap: 18px
+    gap: 18px;
 }
 
 .rail-progress-label {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: .08em;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .rail-progress-label i {
@@ -924,19 +926,20 @@ a {
 }
 
 .proof-points strong {
-    font-size: 29px;
+    font-size: 34px;
     font-weight: 500;
-    letter-spacing: -.05em
+    letter-spacing: -.05em;
 }
 
 .proof-points strong span {
-    color: #bd713a
+    color: #bd713a;
 }
 
 .proof-points>div>span {
-    font-size: 7px;
-    letter-spacing: .1em;
-    color: #69716e
+    font-size: 11.5px;
+    letter-spacing: .12em;
+    font-weight: 600;
+    color: #69716e;
 }
 
 .text-link--light {
@@ -1121,77 +1124,78 @@ a {
 }
 
 .footer-brand-col>p {
-    font-size: 12px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.75;
     color: #b7c0c6;
-    margin: 19px 0 20px
+    margin: 19px 0 20px;
 }
 
 .social-links {
     display: flex;
-    gap: 10px
+    gap: 10px;
 }
 
 .social-links a {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     border: 1px solid #ffffff44;
     border-radius: 50%;
     display: grid;
     place-items: center;
     color: #f0cba6;
-    transition: background .2s, color .2s
+    transition: background .2s, color .2s;
 }
 
 .social-links a:hover {
     background: #c27a45;
-    color: #17253a
+    color: #17253a;
 }
 
 .facebook-mark,
 .linkedin-mark {
     font-size: 15px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .linkedin-mark {
-    font-size: 11px
+    font-size: 11px;
 }
 
 .footer-column {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 13px
+    gap: 13px;
 }
 
 .footer-label {
     margin: 7px 0 8px;
-    font-size: 8px;
-    letter-spacing: .15em;
-    color: #d39a68
+    font-size: 11.5px;
+    letter-spacing: .14em;
+    font-weight: 700;
+    color: #d39a68;
 }
 
 .footer-column>a,
 .footer-column>span {
-    font-size: 11px;
+    font-size: 13.5px;
     color: #c3c9c9;
-    line-height: 1.7
+    line-height: 1.65;
 }
 
 .footer-column>a {
     display: flex;
     align-items: center;
-    gap: 8px
+    gap: 8px;
 }
 
 .footer-column>a:hover {
-    color: #e2a975
+    color: #e2a975;
 }
 
 .footer-column>span {
-    max-width: 185px;
-    color: #8e9ba1
+    max-width: 220px;
+    color: #8e9ba1;
 }
 
 .footer-map {
@@ -1252,18 +1256,18 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px
+    gap: 20px;
 }
 
 .footer-bottom span,
 .footer-bottom a {
-    font-size: 7px;
-    letter-spacing: .12em;
-    color: #aeb8bd
+    font-size: 11px;
+    letter-spacing: .1em;
+    color: #aeb8bd;
 }
 
 .footer-bottom a {
-    color: #f4f0e8
+    color: #f4f0e8;
 }
 
 @keyframes marquee {
@@ -1461,58 +1465,58 @@ a {
     }
 
     .hero-product span {
-        font-size: 6px;
+        font-size: 9.5px;
         left: 7px;
         bottom: 7px;
-        padding: 5px 6px
+        padding: 6px 8px;
     }
 
     .hero-stamp {
-        width: 70px;
-        height: 70px;
+        width: 76px;
+        height: 76px;
         right: 6%;
         top: 7%;
-        font-size: 7px
+        font-size: 9.5px;
     }
 
     .hero-art-caption {
         left: 5%;
         bottom: 5%;
-        font-size: 7px
+        font-size: 9.5px;
     }
 
     .hero-visual>.hero-index {
         bottom: 5%;
         right: 5%;
-        font-size: 6px
+        font-size: 10px;
     }
 
     .hero-copy {
-        padding: 39px 7% 24px
+        padding: 39px 7% 24px;
     }
 
     .hero-copy .eyebrow {
-        margin-bottom: 35px;
-        font-size: 8px
+        margin-bottom: 30px;
+        font-size: 11px;
     }
 
     .hero h1 {
-        font-size: clamp(54px, 14vw, 76px)
+        font-size: clamp(54px, 14vw, 76px);
     }
 
     .hero-description {
         margin: 20px 0 24px;
-        font-size: 13px
+        font-size: 14px;
     }
 
     .hero-actions {
         gap: 17px;
-        flex-wrap: wrap
+        flex-wrap: wrap;
     }
 
     .hero-meta {
         padding-top: 36px;
-        font-size: 7px
+        font-size: 10px;
     }
 
     .hero-stamp {
@@ -1635,39 +1639,40 @@ a {
     .about-caption {
         left: 7%;
         bottom: 6%;
-        font-size: 7px
+        font-size: 10.5px;
     }
 
     .about-copy {
-        padding: 54px 7% 58px
+        padding: 54px 7% 58px;
     }
 
     .about-copy .eyebrow {
-        margin-bottom: 26px
+        margin-bottom: 26px;
+        font-size: 11px;
     }
 
     .about-copy h2 {
-        font-size: 53px
+        font-size: 53px;
     }
 
     .about-copy>p:not(.eyebrow) {
-        font-size: 13px;
-        margin: 21px 0 26px
+        font-size: 14px;
+        margin: 21px 0 26px;
     }
 
     .proof-points strong {
-        font-size: 25px
+        font-size: 28px;
     }
 
     .contact-section {
         padding: 78px 6%;
         grid-template-columns: 1fr;
-        gap: 33px
+        gap: 33px;
     }
 
     .contact-copy .eyebrow {
         margin-bottom: 25px;
-        font-size: 8px
+        font-size: 11px;
     }
 
     .contact-copy>p:not(.eyebrow) {
@@ -1729,16 +1734,18 @@ a {
     border-radius: 999px;
     background: transparent;
     color: #36414a;
-    padding: 10px 15px;
-    font-size: 9px;
-    letter-spacing: .07em;
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .06em;
     cursor: pointer;
-    transition: background .2s, color .2s, border-color .2s
+    transition: background .2s, color .2s, border-color .2s;
 }
 
 .product-filter span {
-    font-size: 8px;
-    color: #9b6138
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #9b6138;
 }
 
 .product-filter:hover,
@@ -1800,24 +1807,24 @@ a {
 .product-description {
     display: block;
     color: #626967;
-    font-size: 11px;
+    font-size: 13.5px;
     line-height: 1.6;
-    margin-top: 6px
+    margin-top: 8px;
 }
 
 .product-view-label {
     position: absolute;
     left: 14px;
     top: 22px;
-    font-size: 7px;
+    font-size: 10.5px;
     letter-spacing: .12em;
     font-weight: 700;
     color: #17253a;
     background: #f2efe7e8;
-    padding: 8px 10px;
+    padding: 8px 12px;
     opacity: 0;
     transform: translateY(4px);
-    transition: opacity .2s, transform .2s
+    transition: opacity .2s, transform .2s;
 }
 
 .product-card:hover .product-view-label,
@@ -2205,52 +2212,54 @@ a {
 
     .product-filter {
         white-space: nowrap;
-        padding: 9px 12px;
-        font-size: 8px
+        padding: 10px 14px;
+        font-size: 12px;
     }
 
     .product-filter span {
-        font-size: 7px
+        font-size: 10.5px;
     }
 
     .product-card {
-        flex-basis: 78vw
+        flex-basis: 78vw;
     }
 
     .product-info {
-        padding: 17px 17px 19px
+        padding: 17px 17px 19px;
     }
 
     .product-name {
         font-size: 22px;
-        margin-top: 14px
+        margin-top: 14px;
     }
 
     .product-view-label {
         opacity: 1;
         transform: none;
         top: 12px;
-        left: 10px
+        left: 10px;
+        font-size: 10px;
+        padding: 6px 8px;
     }
 
     .about-visual--office {
-        min-height: 360px
+        min-height: 360px;
     }
 
     .about-office-note {
         bottom: 20%;
         left: 7%;
-        font-size: 7px
+        font-size: 10.5px;
     }
 
     .about-visual--office .about-caption {
         bottom: 7%;
         left: 7%;
-        font-size: 7px
+        font-size: 10.5px;
     }
 
     .dialog-details-panel>.eyebrow {
-        font-size: 7px;
+        font-size: 10.5px;
         gap: 10px
     }
 
@@ -2606,26 +2615,27 @@ a {
     top: 18px;
     right: 17px;
     color: #a75b2b;
-    font-size: 8px;
-    letter-spacing: .12em
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .12em;
 }
 
 .contact-address-card>svg {
-    color: #b96f39
+    color: #b96f39;
 }
 
 .contact-address-card h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: -.03em;
-    margin: 18px 0 8px
+    margin: 18px 0 8px;
 }
 
 .contact-address-card p {
-    font-size: 12px;
-    line-height: 1.7;
-    color: #686d70;
-    margin: 0 0 18px
+    font-size: 14px;
+    line-height: 1.65;
+    color: #585d60;
+    margin: 0 0 18px;
 }
 
 .contact-address-card>a {
@@ -2633,29 +2643,29 @@ a {
     align-items: center;
     gap: 8px;
     color: #a75b2b;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .08em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .contact-social-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px
+    gap: 12px;
 }
 
 .contact-social-links>a {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 12px 15px;
+    padding: 12px 18px;
     border: 1px solid #17253a25;
     color: #17253a;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: .08em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .contact-social-links>a>span {
@@ -2910,19 +2920,19 @@ a {
 }
 
 .partner-strip-copy {
-    max-width: 280px;
-    flex: 0 0 auto
+    max-width: 340px;
+    flex: 0 0 auto;
 }
 
 .partner-strip-copy .eyebrow {
-    margin: 0 0 10px
+    margin: 0 0 10px;
 }
 
 .partner-strip-copy p {
     margin: 0;
     color: #646b69;
-    font-size: 12px;
-    line-height: 1.6
+    font-size: 14.5px;
+    line-height: 1.65;
 }
 
 .partner-marquee {
@@ -3188,14 +3198,14 @@ a {
         left: 4%;
         bottom: 4%;
         padding: 8px 9px;
-        font-size: 6px
+        font-size: 9.5px;
     }
 
     .hero-visual>.hero-index {
         right: 4%;
         bottom: 4%;
-        font-size: 6px;
-        padding: 8px
+        font-size: 10px;
+        padding: 8px;
     }
 
     .hero-stamp {
@@ -3203,6 +3213,6 @@ a {
         height: 76px;
         right: 6%;
         top: 6%;
-        font-size: 7px
+        font-size: 9.5px;
     }
 }

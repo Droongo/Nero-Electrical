@@ -56,7 +56,7 @@ export function ProductCatalog() {
       <section className="products-section" id="products">
         <div className="section-heading">
           <div>
-            <p className="eyebrow dark-eyebrow">A FEW GOOD THINGS <span className="eyebrow-index">THE NERO RANGE / 01—08</span></p>
+            <p className="eyebrow dark-eyebrow">A FEW GOOD THINGS <span className="eyebrow-index">THE NERO RANGE / 01-08</span></p>
             <h2>Everyday essentials.<br /><span>Exceptionally chosen.</span></h2>
           </div>
           <div className="section-intro-wrap">
