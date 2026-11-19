@@ -1,27 +1,26 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# dependencies
-/node_modules
+# Environment & Local Secrets
+.env
+.env.*
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# Dependencies & Build Caches (legacy Next.js)
+node_modules/
+.next/
+out/
+build/
 *.tsbuildinfo
 next-env.d.ts
+
+# Logs & Temporary Files
+*.log
+scratch_output.html
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.sublime-workspace
+node_modules
