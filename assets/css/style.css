@@ -35,7 +35,12 @@
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
 }
 
 html {
@@ -361,7 +366,12 @@ a {
 }
 
 .hero-product img {
-    object-fit: cover
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .hero-product span {
@@ -648,12 +658,18 @@ a {
 }
 
 .product-art>img {
-    object-fit: cover;
-    transition: transform .8s cubic-bezier(.2, .8, .2, 1)
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: clamp(26px, 3.8vw, 48px);
+    transition: transform .8s cubic-bezier(.2, .8, .2, 1);
+    display: block;
 }
 
 .product-card:hover .product-art>img {
-    transform: scale(1.07)
+    transform: scale(1.05);
 }
 
 .product-arrow {
@@ -1820,12 +1836,19 @@ a {
 
 .about-visual--office {
     display: block;
-    background: #e5e0d6
+    background: #e5e0d6;
+    position: relative;
+    overflow: hidden;
 }
 
 .about-office-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center
+    object-position: center;
+    display: block;
 }
 
 .about-office-shade {
@@ -2263,13 +2286,18 @@ a {
 }
 
 .product-art>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    padding: 14px;
-    transition: transform .8s cubic-bezier(.2, .8, .2, 1)
+    padding: clamp(26px, 3.8vw, 48px);
+    transition: transform .8s cubic-bezier(.2, .8, .2, 1);
+    display: block;
 }
 
 .product-card:hover .product-art>img {
-    transform: scale(1.04)
+    transform: scale(1.05);
 }
 
 .dialog-image-panel {
@@ -2295,10 +2323,16 @@ a {
     border: 1px solid rgba(23, 37, 58, 0.08);
 }
 
-.dialog-image-stage>img {
+.dialog-image-stage>img,
+.dialog-main-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     padding: clamp(16px, 2.4vw, 28px);
     animation: detail-image-appear .4s ease-out both;
+    display: block;
 }
 
 .dialog-image-ref {
@@ -2353,8 +2387,13 @@ a {
 }
 
 .dialog-thumbnail>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     padding: 4px;
+    display: block;
 }
 
 .dialog-details-panel {
@@ -2865,8 +2904,13 @@ a {
 }
 
 .hero-product>img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     animation: hero-photo-drift 8s ease-in-out infinite alternate;
-    will-change: transform
+    will-change: transform;
 }
 
 .hero-product--socket>img {
