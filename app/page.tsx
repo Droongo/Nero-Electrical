@@ -50,7 +50,7 @@ export default function Page() {
                 </div>
                 <div className="hero-copy">
                     <p className="eyebrow">
-                        POWERING EVERYDAY POSSIBILITIES <span className="eyebrow-index">NERO / 01-08</span>
+                        POWERING EVERYDAY POSSIBILITIES
                     </p>
                     <h1>Good power.<br /><span>No guesswork.</span></h1>
                     <p className="hero-description">The right component makes all the difference. Find dependable electrical essentials for every connection, circuit, and control.</p>
@@ -80,7 +80,6 @@ export default function Page() {
                     <div className="hero-product hero-product--breaker">
                         <Image src={HERO_BREAKER_IMAGE} alt="Nero electrical switch plate" fill unoptimized sizes="(max-width: 760px) 30vw, 15vw" />
                     </div>
-                    <div className="hero-index">THE NERO EDIT / 01-04</div>
                     <div className="hero-stamp">GOOD<br />POWER<br /><span>→</span></div>
                     <div className="hero-art-caption">
                         <span className="live-dot" /> THE NERO STANDARD <i>POWER, PRECISELY.</i>
@@ -117,7 +116,7 @@ export default function Page() {
                     <span className="about-caption">QUALITY / SAFETY / RELIABILITY</span>
                 </div>
                 <div className="about-copy">
-                    <p className="eyebrow">THE NERO APPROACH <span className="eyebrow-index">01 / QUALITY FIRST</span></p>
+                    <p className="eyebrow">THE NERO APPROACH</p>
                     <h2>Good work<br />starts with <em>good parts.</em></h2>
                     <p>Nero Electrical brings together dependable products for everyday installations, with quality, safety, and reliability at the center of the range.</p>
                     <div className="proof-points">
@@ -197,7 +196,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <span>©2026 Nero Electrical by Drongo Technology. All Rights Reserved.</span>
+                    <span>©2026 Nero Electrical by <a href="https://drongotechnology.com/" target="_blank" rel="noreferrer" className="footer-credit-link">Drongo Technology</a>. All Rights Reserved.</span>
                     <span>GOOD POWER. NO GUESSWORK.</span>
                     <a href="#top">BACK TO TOP ↑</a>
                 </div>

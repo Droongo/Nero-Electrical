@@ -1281,6 +1281,18 @@ a {
     color: #f4f0e8;
 }
 
+.footer-credit-link {
+    color: #d39a68 !important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 600;
+    transition: color .2s;
+}
+
+.footer-credit-link:hover {
+    color: #f0cba6 !important;
+}
+
 @keyframes marquee {
     to {
         transform: translateX(-48%)
